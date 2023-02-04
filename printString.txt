@@ -1,0 +1,26 @@
+<script>
+ function showString()
+ {
+ acceptno=parseInt(prompt("Enter Number"));
+ str=prompt("Enter String");
+ var message=" "
+ for(var i=0; i<acceptno; i++)
+ {
+ message += str+"<br>";
+ }
+ // document.write(acceptstr);
+ document.getElementById("myform").innerHTML=message;
+ }
+ 
+ </script>
+</head>
+<body>
+ <script>
+ 
+ </script>
+ <button type="button" name="btn" onclick="showString(event)">Show 
+String</button>
+ <div id="myform">
+ </div>
+</body>
+</html>
